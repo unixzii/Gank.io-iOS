@@ -1,0 +1,464 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9D2F7C0E1CA6CB21000F8556 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D2F7C0D1CA6CB21000F8556 /* AppDelegate.swift */; };
+		9D2F7C101CA6CB21000F8556 /* GanhuoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D2F7C0F1CA6CB21000F8556 /* GanhuoViewController.swift */; };
+		9D2F7C151CA6CB21000F8556 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D2F7C141CA6CB21000F8556 /* Assets.xcassets */; };
+		9D2F7C181CA6CB21000F8556 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D2F7C161CA6CB21000F8556 /* LaunchScreen.storyboard */; };
+		9D2F7C211CA6CF5E000F8556 /* GKNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D2F7C201CA6CF5E000F8556 /* GKNavigationController.swift */; };
+		9D2F7C231CA6D1D4000F8556 /* GKHUDController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D2F7C221CA6D1D4000F8556 /* GKHUDController.swift */; };
+		9D2F7C261CA6DBF2000F8556 /* GKBaseOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D2F7C251CA6DBF2000F8556 /* GKBaseOperation.swift */; };
+		9D2F7C281CA6DD40000F8556 /* GKOperationObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D2F7C271CA6DD40000F8556 /* GKOperationObserver.swift */; };
+		9D2F7C2B1CA6DE43000F8556 /* GKURLFetchOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D2F7C2A1CA6DE43000F8556 /* GKURLFetchOperation.swift */; };
+		9D2F7C2E1CA6DFBB000F8556 /* GKNetworkActivityIndicatorController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D2F7C2D1CA6DFBB000F8556 /* GKNetworkActivityIndicatorController.swift */; };
+		9D2F7C311CA6E263000F8556 /* GKGankParseOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D2F7C301CA6E263000F8556 /* GKGankParseOperation.swift */; };
+		9D2F7C331CA6E2C8000F8556 /* GKGankPageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D2F7C321CA6E2C8000F8556 /* GKGankPageModel.swift */; };
+		9D2F7C351CA6E2D6000F8556 /* GKGankCategoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D2F7C341CA6E2D6000F8556 /* GKGankCategoryModel.swift */; };
+		9D2F7C371CA6E3C6000F8556 /* GKGankEntityModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D2F7C361CA6E3C6000F8556 /* GKGankEntityModel.swift */; };
+		9D2F7C391CA6EAB4000F8556 /* GKHistoryParseOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D2F7C381CA6EAB4000F8556 /* GKHistoryParseOperation.swift */; };
+		9D2F7C3B1CA6EB01000F8556 /* GKDataRequiredOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D2F7C3A1CA6EB01000F8556 /* GKDataRequiredOperation.swift */; };
+		9D2F7C3D1CA79923000F8556 /* GKHistoryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D2F7C3C1CA79923000F8556 /* GKHistoryController.swift */; };
+		9D2F7C411CA7A1E5000F8556 /* GKGankTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D2F7C3F1CA7A1E5000F8556 /* GKGankTableViewCell.swift */; };
+		9D2F7C421CA7A1E5000F8556 /* GKGankTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9D2F7C401CA7A1E5000F8556 /* GKGankTableViewCell.xib */; };
+		9D2F7C441CA7A2E6000F8556 /* GKGankController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D2F7C431CA7A2E6000F8556 /* GKGankController.swift */; };
+		9D2F7C461CA7B150000F8556 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D2F7C451CA7B150000F8556 /* WebViewController.swift */; };
+		9D2F7C481CA7BB00000F8556 /* TabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D2F7C471CA7BB00000F8556 /* TabViewController.swift */; };
+		9D2F7C4A1CA7C061000F8556 /* MeizhiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D2F7C491CA7C061000F8556 /* MeizhiViewController.swift */; };
+		9D2F7C4C1CA7C1DA000F8556 /* GKMeizhiController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D2F7C4B1CA7C1DA000F8556 /* GKMeizhiController.swift */; };
+		9D2F7C4E1CA7C31F000F8556 /* GKMeizhiParseOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D2F7C4D1CA7C31F000F8556 /* GKMeizhiParseOperation.swift */; };
+		9D2F7C501CA7C92C000F8556 /* GKMeizhiCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D2F7C4F1CA7C92C000F8556 /* GKMeizhiCollectionViewCell.swift */; };
+		9D2F7C521CA7C949000F8556 /* GKMeizhiCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9D2F7C511CA7C949000F8556 /* GKMeizhiCollectionViewCell.xib */; };
+		9DE02FB61CA820440056D52B /* GKReloadable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE02FB51CA820440056D52B /* GKReloadable.swift */; };
+		9DE02FBA1CA829590056D52B /* MoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE02FB91CA829590056D52B /* MoreViewController.swift */; };
+		9DE02FBD1CA829F60056D52B /* GKMiscTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE02FBB1CA829F60056D52B /* GKMiscTableViewCell.swift */; };
+		9DE02FBE1CA829F60056D52B /* GKMiscTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9DE02FBC1CA829F60056D52B /* GKMiscTableViewCell.xib */; };
+		9DF8F0431CA9018000F9CCC8 /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF8F0421CA9018000F9CCC8 /* HistoryViewController.swift */; };
+		9DF8F0451CA90AD700F9CCC8 /* FullscreenImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF8F0441CA90AD700F9CCC8 /* FullscreenImageViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9D2F7C0A1CA6CB21000F8556 /* Gank.io.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gank.io.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D2F7C0D1CA6CB21000F8556 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9D2F7C0F1CA6CB21000F8556 /* GanhuoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GanhuoViewController.swift; sourceTree = "<group>"; };
+		9D2F7C141CA6CB21000F8556 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9D2F7C171CA6CB21000F8556 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9D2F7C191CA6CB21000F8556 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9D2F7C201CA6CF5E000F8556 /* GKNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GKNavigationController.swift; sourceTree = "<group>"; };
+		9D2F7C221CA6D1D4000F8556 /* GKHUDController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GKHUDController.swift; sourceTree = "<group>"; };
+		9D2F7C251CA6DBF2000F8556 /* GKBaseOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GKBaseOperation.swift; sourceTree = "<group>"; };
+		9D2F7C271CA6DD40000F8556 /* GKOperationObserver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GKOperationObserver.swift; sourceTree = "<group>"; };
+		9D2F7C2A1CA6DE43000F8556 /* GKURLFetchOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GKURLFetchOperation.swift; sourceTree = "<group>"; };
+		9D2F7C2D1CA6DFBB000F8556 /* GKNetworkActivityIndicatorController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GKNetworkActivityIndicatorController.swift; sourceTree = "<group>"; };
+		9D2F7C301CA6E263000F8556 /* GKGankParseOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GKGankParseOperation.swift; sourceTree = "<group>"; };
+		9D2F7C321CA6E2C8000F8556 /* GKGankPageModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GKGankPageModel.swift; sourceTree = "<group>"; };
+		9D2F7C341CA6E2D6000F8556 /* GKGankCategoryModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GKGankCategoryModel.swift; sourceTree = "<group>"; };
+		9D2F7C361CA6E3C6000F8556 /* GKGankEntityModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GKGankEntityModel.swift; sourceTree = "<group>"; };
+		9D2F7C381CA6EAB4000F8556 /* GKHistoryParseOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GKHistoryParseOperation.swift; sourceTree = "<group>"; };
+		9D2F7C3A1CA6EB01000F8556 /* GKDataRequiredOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GKDataRequiredOperation.swift; sourceTree = "<group>"; };
+		9D2F7C3C1CA79923000F8556 /* GKHistoryController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GKHistoryController.swift; sourceTree = "<group>"; };
+		9D2F7C3F1CA7A1E5000F8556 /* GKGankTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GKGankTableViewCell.swift; sourceTree = "<group>"; };
+		9D2F7C401CA7A1E5000F8556 /* GKGankTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GKGankTableViewCell.xib; sourceTree = "<group>"; };
+		9D2F7C431CA7A2E6000F8556 /* GKGankController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GKGankController.swift; sourceTree = "<group>"; };
+		9D2F7C451CA7B150000F8556 /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		9D2F7C471CA7BB00000F8556 /* TabViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabViewController.swift; sourceTree = "<group>"; };
+		9D2F7C491CA7C061000F8556 /* MeizhiViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MeizhiViewController.swift; path = ../MeizhiViewController.swift; sourceTree = "<group>"; };
+		9D2F7C4B1CA7C1DA000F8556 /* GKMeizhiController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GKMeizhiController.swift; sourceTree = "<group>"; };
+		9D2F7C4D1CA7C31F000F8556 /* GKMeizhiParseOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GKMeizhiParseOperation.swift; sourceTree = "<group>"; };
+		9D2F7C4F1CA7C92C000F8556 /* GKMeizhiCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GKMeizhiCollectionViewCell.swift; sourceTree = "<group>"; };
+		9D2F7C511CA7C949000F8556 /* GKMeizhiCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GKMeizhiCollectionViewCell.xib; sourceTree = "<group>"; };
+		9DE02FB51CA820440056D52B /* GKReloadable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GKReloadable.swift; sourceTree = "<group>"; };
+		9DE02FB91CA829590056D52B /* MoreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoreViewController.swift; sourceTree = "<group>"; };
+		9DE02FBB1CA829F60056D52B /* GKMiscTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GKMiscTableViewCell.swift; sourceTree = "<group>"; };
+		9DE02FBC1CA829F60056D52B /* GKMiscTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GKMiscTableViewCell.xib; sourceTree = "<group>"; };
+		9DF8F0421CA9018000F9CCC8 /* HistoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
+		9DF8F0441CA90AD700F9CCC8 /* FullscreenImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FullscreenImageViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9D2F7C071CA6CB21000F8556 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9D2F7C011CA6CB21000F8556 = {
+			isa = PBXGroup;
+			children = (
+				9D2F7C0C1CA6CB21000F8556 /* Gank.io */,
+				9DE02FB81CA829260056D52B /* Support Files */,
+				9D2F7C0B1CA6CB21000F8556 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9D2F7C0B1CA6CB21000F8556 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9D2F7C0A1CA6CB21000F8556 /* Gank.io.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9D2F7C0C1CA6CB21000F8556 /* Gank.io */ = {
+			isa = PBXGroup;
+			children = (
+				9DE02FB71CA829150056D52B /* View Controller */,
+				9D2F7C2F1CA6E24C000F8556 /* Model */,
+				9D2F7C3E1CA7A194000F8556 /* View */,
+				9D2F7C2C1CA6DF9F000F8556 /* Controller */,
+				9D2F7C241CA6DBCF000F8556 /* Operation */,
+				9D2F7C1F1CA6CF29000F8556 /* Common */,
+			);
+			path = Gank.io;
+			sourceTree = "<group>";
+		};
+		9D2F7C1F1CA6CF29000F8556 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				9D2F7C201CA6CF5E000F8556 /* GKNavigationController.swift */,
+				9D2F7C221CA6D1D4000F8556 /* GKHUDController.swift */,
+				9DE02FB51CA820440056D52B /* GKReloadable.swift */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+		9D2F7C241CA6DBCF000F8556 /* Operation */ = {
+			isa = PBXGroup;
+			children = (
+				9D2F7C291CA6DE1B000F8556 /* Base */,
+				9D2F7C2A1CA6DE43000F8556 /* GKURLFetchOperation.swift */,
+				9D2F7C301CA6E263000F8556 /* GKGankParseOperation.swift */,
+				9D2F7C4D1CA7C31F000F8556 /* GKMeizhiParseOperation.swift */,
+				9D2F7C381CA6EAB4000F8556 /* GKHistoryParseOperation.swift */,
+				9D2F7C3A1CA6EB01000F8556 /* GKDataRequiredOperation.swift */,
+			);
+			name = Operation;
+			sourceTree = "<group>";
+		};
+		9D2F7C291CA6DE1B000F8556 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				9D2F7C251CA6DBF2000F8556 /* GKBaseOperation.swift */,
+				9D2F7C271CA6DD40000F8556 /* GKOperationObserver.swift */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		9D2F7C2C1CA6DF9F000F8556 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9D2F7C2D1CA6DFBB000F8556 /* GKNetworkActivityIndicatorController.swift */,
+				9D2F7C3C1CA79923000F8556 /* GKHistoryController.swift */,
+				9D2F7C431CA7A2E6000F8556 /* GKGankController.swift */,
+				9D2F7C4B1CA7C1DA000F8556 /* GKMeizhiController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		9D2F7C2F1CA6E24C000F8556 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9D2F7C321CA6E2C8000F8556 /* GKGankPageModel.swift */,
+				9D2F7C341CA6E2D6000F8556 /* GKGankCategoryModel.swift */,
+				9D2F7C361CA6E3C6000F8556 /* GKGankEntityModel.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		9D2F7C3E1CA7A194000F8556 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9D2F7C3F1CA7A1E5000F8556 /* GKGankTableViewCell.swift */,
+				9D2F7C401CA7A1E5000F8556 /* GKGankTableViewCell.xib */,
+				9D2F7C4F1CA7C92C000F8556 /* GKMeizhiCollectionViewCell.swift */,
+				9D2F7C511CA7C949000F8556 /* GKMeizhiCollectionViewCell.xib */,
+				9DE02FBB1CA829F60056D52B /* GKMiscTableViewCell.swift */,
+				9DE02FBC1CA829F60056D52B /* GKMiscTableViewCell.xib */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		9DE02FB71CA829150056D52B /* View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9D2F7C471CA7BB00000F8556 /* TabViewController.swift */,
+				9DF8F0421CA9018000F9CCC8 /* HistoryViewController.swift */,
+				9D2F7C0F1CA6CB21000F8556 /* GanhuoViewController.swift */,
+				9D2F7C491CA7C061000F8556 /* MeizhiViewController.swift */,
+				9D2F7C451CA7B150000F8556 /* WebViewController.swift */,
+				9DE02FB91CA829590056D52B /* MoreViewController.swift */,
+				9DF8F0441CA90AD700F9CCC8 /* FullscreenImageViewController.swift */,
+			);
+			name = "View Controller";
+			sourceTree = "<group>";
+		};
+		9DE02FB81CA829260056D52B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9D2F7C0D1CA6CB21000F8556 /* AppDelegate.swift */,
+				9D2F7C141CA6CB21000F8556 /* Assets.xcassets */,
+				9D2F7C161CA6CB21000F8556 /* LaunchScreen.storyboard */,
+				9D2F7C191CA6CB21000F8556 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = Gank.io;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9D2F7C091CA6CB21000F8556 /* Gank.io */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D2F7C1C1CA6CB21000F8556 /* Build configuration list for PBXNativeTarget "Gank.io" */;
+			buildPhases = (
+				9D2F7C061CA6CB21000F8556 /* Sources */,
+				9D2F7C071CA6CB21000F8556 /* Frameworks */,
+				9D2F7C081CA6CB21000F8556 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Gank.io;
+			productName = Gank.io;
+			productReference = 9D2F7C0A1CA6CB21000F8556 /* Gank.io.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9D2F7C021CA6CB21000F8556 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Cyandev;
+				TargetAttributes = {
+					9D2F7C091CA6CB21000F8556 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = S8ZP685HLU;
+					};
+				};
+			};
+			buildConfigurationList = 9D2F7C051CA6CB21000F8556 /* Build configuration list for PBXProject "Gank.io" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9D2F7C011CA6CB21000F8556;
+			productRefGroup = 9D2F7C0B1CA6CB21000F8556 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9D2F7C091CA6CB21000F8556 /* Gank.io */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9D2F7C081CA6CB21000F8556 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D2F7C181CA6CB21000F8556 /* LaunchScreen.storyboard in Resources */,
+				9DE02FBE1CA829F60056D52B /* GKMiscTableViewCell.xib in Resources */,
+				9D2F7C151CA6CB21000F8556 /* Assets.xcassets in Resources */,
+				9D2F7C521CA7C949000F8556 /* GKMeizhiCollectionViewCell.xib in Resources */,
+				9D2F7C421CA7A1E5000F8556 /* GKGankTableViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9D2F7C061CA6CB21000F8556 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D2F7C4C1CA7C1DA000F8556 /* GKMeizhiController.swift in Sources */,
+				9D2F7C3B1CA6EB01000F8556 /* GKDataRequiredOperation.swift in Sources */,
+				9D2F7C461CA7B150000F8556 /* WebViewController.swift in Sources */,
+				9D2F7C391CA6EAB4000F8556 /* GKHistoryParseOperation.swift in Sources */,
+				9D2F7C441CA7A2E6000F8556 /* GKGankController.swift in Sources */,
+				9DE02FBA1CA829590056D52B /* MoreViewController.swift in Sources */,
+				9DF8F0431CA9018000F9CCC8 /* HistoryViewController.swift in Sources */,
+				9D2F7C2B1CA6DE43000F8556 /* GKURLFetchOperation.swift in Sources */,
+				9DE02FBD1CA829F60056D52B /* GKMiscTableViewCell.swift in Sources */,
+				9D2F7C261CA6DBF2000F8556 /* GKBaseOperation.swift in Sources */,
+				9D2F7C101CA6CB21000F8556 /* GanhuoViewController.swift in Sources */,
+				9D2F7C371CA6E3C6000F8556 /* GKGankEntityModel.swift in Sources */,
+				9D2F7C3D1CA79923000F8556 /* GKHistoryController.swift in Sources */,
+				9D2F7C331CA6E2C8000F8556 /* GKGankPageModel.swift in Sources */,
+				9D2F7C4A1CA7C061000F8556 /* MeizhiViewController.swift in Sources */,
+				9D2F7C211CA6CF5E000F8556 /* GKNavigationController.swift in Sources */,
+				9D2F7C351CA6E2D6000F8556 /* GKGankCategoryModel.swift in Sources */,
+				9D2F7C411CA7A1E5000F8556 /* GKGankTableViewCell.swift in Sources */,
+				9D2F7C501CA7C92C000F8556 /* GKMeizhiCollectionViewCell.swift in Sources */,
+				9D2F7C0E1CA6CB21000F8556 /* AppDelegate.swift in Sources */,
+				9D2F7C311CA6E263000F8556 /* GKGankParseOperation.swift in Sources */,
+				9DE02FB61CA820440056D52B /* GKReloadable.swift in Sources */,
+				9D2F7C231CA6D1D4000F8556 /* GKHUDController.swift in Sources */,
+				9D2F7C281CA6DD40000F8556 /* GKOperationObserver.swift in Sources */,
+				9D2F7C4E1CA7C31F000F8556 /* GKMeizhiParseOperation.swift in Sources */,
+				9D2F7C2E1CA6DFBB000F8556 /* GKNetworkActivityIndicatorController.swift in Sources */,
+				9D2F7C481CA7BB00000F8556 /* TabViewController.swift in Sources */,
+				9DF8F0451CA90AD700F9CCC8 /* FullscreenImageViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9D2F7C161CA6CB21000F8556 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9D2F7C171CA6CB21000F8556 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9D2F7C1A1CA6CB21000F8556 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9D2F7C1B1CA6CB21000F8556 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9D2F7C1D1CA6CB21000F8556 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Gank.io/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cyandev.Gank-io";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9D2F7C1E1CA6CB21000F8556 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Gank.io/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cyandev.Gank-io";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9D2F7C051CA6CB21000F8556 /* Build configuration list for PBXProject "Gank.io" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D2F7C1A1CA6CB21000F8556 /* Debug */,
+				9D2F7C1B1CA6CB21000F8556 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9D2F7C1C1CA6CB21000F8556 /* Build configuration list for PBXNativeTarget "Gank.io" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D2F7C1D1CA6CB21000F8556 /* Debug */,
+				9D2F7C1E1CA6CB21000F8556 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9D2F7C021CA6CB21000F8556 /* Project object */;
+}
