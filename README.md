@@ -19,15 +19,15 @@ WARNING: There will be a lot of Chinese characters!!!
 
 ## 截图
 
-![](https://raw.githubusercontent.com/unixzii/Gank.io-iOS/images/1.png)
+![](https://raw.githubusercontent.com/unixzii/Gank.io-iOS/master/images/1.png)
 
-![](https://raw.githubusercontent.com/unixzii/Gank.io-iOS/images/2.png)
+![](https://raw.githubusercontent.com/unixzii/Gank.io-iOS/master/images/2.png)
 
-![](https://raw.githubusercontent.com/unixzii/Gank.io-iOS/images/3.png)
+![](https://raw.githubusercontent.com/unixzii/Gank.io-iOS/master/images/3.png)
 
-![](https://raw.githubusercontent.com/unixzii/Gank.io-iOS/images/4.png)
+![](https://raw.githubusercontent.com/unixzii/Gank.io-iOS/master/images/4.png)
 
-![](https://raw.githubusercontent.com/unixzii/Gank.io-iOS/images/5.png)
+![](https://raw.githubusercontent.com/unixzii/Gank.io-iOS/master/images/5.png)
 
 ## 贡献
 
