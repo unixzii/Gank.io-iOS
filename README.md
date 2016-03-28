@@ -35,8 +35,8 @@ WARNING: There will be a lot of Chinese characters!!!
 
 ## 关于我
 
-* 我是一个在校大学生，目前大一
+* 我是一名在校大学生，目前大一
 * 热爱苹果产品，热爱开发应用，喜欢研究各种技术
 * 邮箱：unixzii@163.com
-* 微博：@cyandev
+* 微博：[@cyandev](http://weibo.com/2834711045/profile)
 * 欢迎骚扰~
