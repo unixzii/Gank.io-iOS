@@ -67,7 +67,7 @@
 		9D2F7C431CA7A2E6000F8556 /* GKGankController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GKGankController.swift; sourceTree = "<group>"; };
 		9D2F7C451CA7B150000F8556 /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
 		9D2F7C471CA7BB00000F8556 /* TabViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabViewController.swift; sourceTree = "<group>"; };
-		9D2F7C491CA7C061000F8556 /* MeizhiViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MeizhiViewController.swift; path = ../MeizhiViewController.swift; sourceTree = "<group>"; };
+		9D2F7C491CA7C061000F8556 /* MeizhiViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeizhiViewController.swift; sourceTree = "<group>"; };
 		9D2F7C4B1CA7C1DA000F8556 /* GKMeizhiController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GKMeizhiController.swift; sourceTree = "<group>"; };
 		9D2F7C4D1CA7C31F000F8556 /* GKMeizhiParseOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GKMeizhiParseOperation.swift; sourceTree = "<group>"; };
 		9D2F7C4F1CA7C92C000F8556 /* GKMeizhiCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GKMeizhiCollectionViewCell.swift; sourceTree = "<group>"; };
